@@ -13,8 +13,8 @@ development:
   encoding: unicode
   database: p_mate_development
   pool: 5
-  username: p_mate
-  password:
+  username: rails
+  password: robot_72
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -39,13 +39,13 @@ test:
   encoding: unicode
   database: p_mate_test
   pool: 5
-  username: p_mate
-  password:
+  username: rails
+  password: robot_72
 
 production:
   adapter: postgresql
   encoding: unicode
   database: p_mate_production
   pool: 5
-  username: p_mate
-  password:
+  username: rails
+  password: robot_72
