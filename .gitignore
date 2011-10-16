@@ -8,6 +8,12 @@ doc/
 *~
 .project
 .DS_Store
+
+#ignore netbeans stuff
+
 /netbeans/
 *.nb
 *.netbeans
+/nbproject/*
+/nbproject/private/*
+
