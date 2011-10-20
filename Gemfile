@@ -23,12 +23,18 @@ gem 'pg'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
+#try adding mongrel to get this to work
+#gem 'mongrel', '1.15'
+
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 
  group :development do
 	gem 'rspec-rails', '2.6.1'
+  gem 'thin'
+  gem 'rack'
+  gem 'mongrel',	'1.2.0.pre2'
  end
 
  group :test do
