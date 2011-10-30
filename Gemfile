@@ -31,13 +31,17 @@ gem 'pg'
 # and rake tasks are available in development mode:
 
  group :development do
-	gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails', 	'2.6.1'
   gem 'thin'
   gem 'rack'
-  gem 'mongrel',	'1.2.0.pre2'
+  gem 'mongrel',		'1.2.0.pre2'
+  gem 'annotate', 		'2.4.0'
+  
+
  end
 
  group :test do
    gem 'rspec-rails', '2.6.1'
    gem 'webrat'
+   gem 'factory_girl_rails', '1.0'
  end

@@ -2,8 +2,8 @@ class CreateUsers < ActiveRecord::Migration
   def self.up
     create_table :users do |t|
       t.string  :first_name, :limit=>75
-      t.string  :last_name, :limit=>75, :null=> false
-      t.string  :email, :null=>false
+      t.string  :last_name, :limit=>75 
+      t.string  :email 
       t.string  :address
       t.string  :city, :limit=>100
       t.string  :state, :limit=>25
