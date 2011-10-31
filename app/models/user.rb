@@ -24,6 +24,8 @@
 #  salt               :string(255)
 #
 
+require 'digest'
+
 class User < ActiveRecord::Base
   attr_accessor   :password
   attr_accessor   :full_name
@@ -81,6 +83,7 @@ class User < ActiveRecord::Base
     return user if user.has_password?(submitted_password)
   end
 
+  #a nice way to return the full users name
   def full_name
     return "#{self.first_name} #{self.last_name}"
   end
