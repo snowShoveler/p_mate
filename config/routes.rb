@@ -3,7 +3,7 @@ PMate::Application.routes.draw do
   resources :users
 
   
-  match '/signup',  :to=> 'users#new'
+  match '/register',  :to=> 'users#new'
 
   get "users/edit"
 
