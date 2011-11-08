@@ -27,7 +27,9 @@ header {
 	width: 820px;
 	height: 44px;
 	margin: 0 auto;
-	background: url(/stylesheets/reckoning/images/img03.jpg) repeat-x left top;
+	background-image: url(/stylesheets/reckoning/images/img03.jpg) ;
+        background-repeat: repeat-x;
+        background-position: left top;
 }
 
 /* Menu */
@@ -49,9 +51,10 @@ header {
 	display: block;
 	float: left;
 	padding: 12px 25px 0px 25px;
-	background: url(/stylesheets/reckoning/images/img04.jpg) no-repeat right 8px;
+	background-image: url(/stylesheets/reckoning/images/img04.jpg);
+        background-repeat: no-repeat;
+        
 }
-
 #menu a {
 	display: block;
 	float: left;
