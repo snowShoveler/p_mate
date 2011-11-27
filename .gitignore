@@ -20,5 +20,5 @@ doc/
 #ignore crap
 .settings
 /.settings/*
-
+.settings/*
 
