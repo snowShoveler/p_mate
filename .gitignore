@@ -17,3 +17,8 @@ doc/
 /nbproject/*
 /nbproject/private/*
 
+#ignore crap
+.settings
+/.settings/*
+
+

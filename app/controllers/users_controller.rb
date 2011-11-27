@@ -7,7 +7,12 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
+      
       flash[:success] = "Welcome to pMate!"
+      
+      sign_in @user #you can find this in the sessions_helper
+      
+      
       redirect_to @user
 
     else
