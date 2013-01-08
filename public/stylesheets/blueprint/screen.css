@@ -33,7 +33,7 @@ body {font-size:75%;
       font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-weight:normal;
                         color: #63676A;}
-h1 {font-size:3em;line-height:1;margin-bottom:0.5em;color:#9fec97}
+h1 {font-size:2.5em;line-height:1;margin-bottom:0.5em;color:#9fec97}
 h2 {font-size:2em;margin-bottom:0.75em;}
 h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
 h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
@@ -84,8 +84,9 @@ caption {background:#eee;}
 .bottom {margin-bottom:0;padding-bottom:0;}
 
 /* forms.css */
+
 label {font-weight:bold;}
-fieldset {padding:0 1.4em 1.4em 1.4em;margin:0 0 1.5em 0;border:1px solid #ccc;}
+fieldset {padding:0 1.0em 1.0em 1.0em;margin:0 0 1.5em 0;border:1px solid #ccc;}
 legend {font-weight:bold;font-size:1.2em;margin-top:-0.2em;margin-bottom:1em;}
 fieldset, #IE8#HACK {padding-top:1.4em;}
 legend, #IE8#HACK {margin-top:0;margin-bottom:0;}
@@ -107,6 +108,7 @@ form.inline p {margin-bottom:0;}
 .notice a {color:#514721;}
 .success a {color:#264409;}
 .info a {color:#205791;}
+
 
 /* grid.css */
 

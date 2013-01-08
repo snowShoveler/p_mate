@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+  
+  before_filter :authenticate, :only => [:edit, :update, :show]
+
   def new
     @title = "Create a User"
     @user = User.new
@@ -24,6 +27,19 @@ class UsersController < ApplicationController
 
   def edit
     @title = "Edit User"
+    @user = User.find(params[:id])
+  end
+
+  def update
+    @user = User.find(params[:id])
+    if @user.update_attributes(params[:user])
+    
+      flash[:success] = "Profile Updated"
+      redirect_to @user
+    else
+      @title="Edit User"
+      render 'edit'
+    end
   end
 
   def show
